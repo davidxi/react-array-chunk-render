@@ -1,0 +1,23 @@
+{
+  "name": "react-array-chunk-render",
+  "version": "0.0.1",
+  "description": "A react component mixin to asynchroulsy render long array children",
+  "bugs": {
+    "url": "https://github.com/davidxi/react-array-chunk-render/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidxi/react-array-chunk-render.git"
+  },
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "devDependencies": {
+    "jshint": "^2.7.0",
+    "jshint-stylish": "1.0.0",
+    "http-server": "^0.6.1"
+  },
+  "scripts": {
+    "lint": "node node_modules/jshint/bin/jshint index.js",
+    "start": "http-server -p 3000"
+  }
+}
